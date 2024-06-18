@@ -8,7 +8,7 @@ import nltk
 from nltk.corpus import stopwords
 
 
-cv = pickle.load(open("C:\\Users\\Risathvik\\Downloads\\Duplicate-Quora-Question-Pair-Identification-main\\Duplicate-Quora-Question-Pair-Identification-main\\cv.pkl",'rb'))
+cv = pickle.load(open("cv.pkl",'rb'))
 
 
 def test_common_words(q1,q2):
