@@ -2,7 +2,7 @@ import streamlit as st
 import helper
 import pickle
 
-model = pickle.load(open("C:\\Users\\Risathvik\\Downloads\\Duplicate-Quora-Question-Pair-Identification-main\\Duplicate-Quora-Question-Pair-Identification-main\\model.pkl",'rb'))
+model = pickle.load(open("model.pkl",'rb'))
 
 st.header('Duplicate Question Pairs')
 
