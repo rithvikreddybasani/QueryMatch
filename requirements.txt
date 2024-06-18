@@ -4,3 +4,4 @@ nltk==3.8.1
 numpy==1.26.4
 fuzzywuzzy==0.18.0
 bs4==0.0.2
+distance==0.1.3
