@@ -16,4 +16,4 @@ if st.button('Find'):
     if result:
         st.header('Similar questions')
     else:
-        st.header('Different question')
+        st.header('Different questions')
